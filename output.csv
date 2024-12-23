@@ -1,0 +1,86 @@
+Timestamp,CVE,Severity,Action,Description
+2024-12-04 08:21:57,CVE-2022-27446,Medium,Enabled automatic security updates to mitigate CVE-2022-27446.,Success
+2024-12-04 08:21:58,CVE-2020-15778,High,Check telnet service,Skipped: telnet does not exist.
+2024-12-04 08:21:59,CVE-2020-15778,High,Check rlogin service,Skipped: rlogin does not exist.
+2024-12-04 08:22:00,CVE-2020-15778,High,Check rexec service,Skipped: rexec does not exist.
+2024-12-04 08:22:00,CVE-2019-6111,High,Enforce password complexity requirements,Success
+2024-12-04 08:22:38,CVE-2020-16088,Medium,Enabled UFW firewall,Success
+2024-12-04 08:22:38,CVE-2020-16088,Medium,Default deny incoming traffic,Success
+2024-12-04 08:22:38,CVE-2020-16088,Medium,Default allow outgoing traffic,Success
+2024-12-04 08:22:38,CVE-2020-16088,Medium,Allowed SSH traffic through UFW,Success
+2024-12-04 08:22:38,CVE-2020-16088,Medium,Configure firewall to allow only necessary traffic,Success
+2024-12-04 08:22:38,N/A,N/A,Skipped enable_file_integrity_monitoring and configure_secure_dns,Skipped: Flag not provided
+2024-12-04 08:22:48,CVE-2022-30190,Medium,Installed clamav,Success
+2024-12-04 08:23:00,CVE-2022-30190,Medium,Installed clamav-daemon,Success
+2024-12-04 08:23:01,CVE-2022-30190,Medium,Enabled ClamAV Freshclam service,Success
+2024-12-04 08:23:01,CVE-2022-30190,Medium,Started ClamAV Freshclam service,Success
+2024-12-04 08:23:01,CVE-2022-30190,Medium,Updated ClamAV virus definitions,"Failed: ERROR: Problem with internal logger (UpdateLogFile = /var/log/clamav/freshclam.log).
+ERROR: initialize: libfreshclam init failed.
+ERROR: Initialization error!"
+2024-12-04 08:23:04,CVE-2022-30190,Medium,Enabled ClamAV daemon,Success
+2024-12-04 08:23:04,CVE-2022-30190,Medium,Started ClamAV daemon,Success
+2024-12-04 08:23:04,CVE-2022-30190,Medium,Install and configure antivirus software,Success
+2024-12-04 08:23:04,CVE-2020-14386,High,Set permissions for /etc/passwd to 644,Success
+2024-12-04 08:23:04,CVE-2020-14386,High,Set permissions for /etc/shadow to 640,Success
+2024-12-04 08:23:04,CVE-2020-14386,High,Enforce least privilege principle for user accounts,Success
+2024-12-04 08:23:04,CVE-2019-8912,High,Enable Secure Boot if supported,Failed: Secure Boot is not enabled. Manual intervention required.
+2024-12-04 08:25:10,CVE-2021-33909,High,Installed auditd,Success
+2024-12-04 08:25:12,CVE-2021-33909,High,Enabled auditd service,Success
+2024-12-04 08:25:12,CVE-2021-33909,High,Started auditd service,Success
+2024-12-04 08:25:12,CVE-2021-33909,High,Enable and configure auditing tools,Failed: not readable
+2024-12-04 08:25:12,CVE-2017-12163,Medium,Restarted SSH service to apply PAM changes,Success
+2024-12-04 08:25:12,CVE-2017-12163,Medium,Lock user accounts after multiple failed login attempts,Success
+2024-12-04 08:25:14,CVE-2019-18634,High,Updated package lists,Success
+2024-12-04 08:25:58,CVE-2019-18634,High,Applied all available security patches,Success
+2024-12-04 08:25:58,CVE-2019-18634,High,Apply critical security patches promptly,Success
+2024-12-04 08:26:09,CVE-2019-18634,High,Installed libpam-google-authenticator,Success
+2024-12-04 08:26:09,CVE-2019-18634,High,Install and configure two-factor authentication for SSH,Added Google Authenticator PAM module
+2024-12-04 08:26:09,CVE-2019-18634,High,Enabled ChallengeResponseAuthentication in SSH,Success
+2024-12-04 08:26:09,CVE-2019-18634,High,Restarted SSH service to apply 2FA changes,Success
+2024-12-04 08:26:09,CVE-2019-18634,High,Install and configure two-factor authentication for SSH,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: daemon,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: bin,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: sys,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: games,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: man,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: lp,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: mail,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: news,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: uucp,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: proxy,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: www-data,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: backup,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: list,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: irc,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: _apt,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: systemd-network,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: systemd-timesync,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: dhcpcd,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: messagebus,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: syslog,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: systemd-resolve,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: tss,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: uuidd,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: sshd,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: pollinate,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: tcpdump,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: landscape,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: fwupd-refresh,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: polkitd,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disabled unused system account: clamav,Success
+2024-12-04 08:26:09,CVE-2020-10713,Medium,Disable or remove unused user accounts,Success
+2024-12-04 08:26:09,CVE-2019-14287,High,Configure GRUB password protection,Instructions provided for manual GRUB password setup.
+2024-12-04 08:26:09,CVE-2016-2776,Medium,Configure NTP to use authenticated servers,Failed: /etc/ntp.conf does not exist.
+2024-12-04 08:26:09,CVE-2021-3711,High,Configured SSH to display login banner,Success
+2024-12-04 08:26:09,CVE-2021-3711,High,Restarted SSH service to apply login banner changes,Success
+2024-12-04 08:26:09,CVE-2021-3711,High,Configure login banner for unauthorized access warnings,Success
+2024-12-04 08:26:09,CVE-2019-11236,Medium,Configure sudoers to restrict root-level access,Sudoers file validated and configured successfully.
+2024-12-04 08:26:09,CVE-2018-16864,High,Implement data-at-rest encryption,Advised manual setup for data-at-rest encryption.
+2024-12-04 08:26:09,CVE-2021-34558,Medium,Encrypt and securely store system backups,"Failed: gpg: directory '/root/.gnupg' created
+gpg: keybox '/root/.gnupg/pubring.kbx' created
+gpg: -:1: unknown keyword"
+2024-12-04 08:26:09,CVE-2020-8558,High,Made failed login notification script executable,Success
+2024-12-04 08:26:10,CVE-2020-8558,High,Reloaded systemd daemon,Success
+2024-12-04 08:26:10,CVE-2020-8558,High,Enabled failed login notification service,Success
+2024-12-04 08:26:10,CVE-2020-8558,High,Started failed login notification service,Success
+2024-12-04 08:26:10,CVE-2020-8558,High,Setup notifications for failed login attempts,Success
